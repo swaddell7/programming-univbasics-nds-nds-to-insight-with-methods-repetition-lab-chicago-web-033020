@@ -50,7 +50,13 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   
-  puts directors_totals
+grand_total = 0 
+index = 0
+
+while index < list_of_directors(directors_database).length do 
+  grand_total += directors_totals(directors_database)[list_of_directors(directors_database)][index]
+  index += 1
+end 
   
 end
 
