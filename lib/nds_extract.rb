@@ -52,10 +52,12 @@ def total_gross(source)
   # return the total
   
 grand_total = 0 
-index = 0
-while index < list_of_directors(source).length do 
-  grand_total += directors_totals(source)[list_of_directors(source)][index]
-  index += 1
+outer_index = 0
+
+while outer_index < list_of_directors(source).length do 
+  hash_key_index = list_of_directors(source)[outer_index]
+  grand_total += directors_totals(source)[hash_key_index]
+  outer_index += 1
 end 
   
 grand_total
