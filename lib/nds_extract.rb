@@ -59,6 +59,8 @@ while index < list_of_directors(source).length do
   index += 1
 end 
   
+grand_total
+  
 end
 
 
