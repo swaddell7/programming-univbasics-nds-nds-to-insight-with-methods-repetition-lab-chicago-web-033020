@@ -57,7 +57,6 @@ index = 0
 while index < list_of_directors(source).length do 
   grand_total += directors_totals(source)[list_of_directors(source)][index]
   index += 1
-binding.pry 
 end 
   
 end
