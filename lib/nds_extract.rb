@@ -50,7 +50,7 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   
-  
+  puts directors_totals
   
 end
 
